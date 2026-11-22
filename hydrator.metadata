@@ -1,0 +1,8 @@
+{
+  "repoURL": "https://github.com/Soyef-Ahmed/argocd-example-apps",
+  "drySha": "a98fceb6de3ef1b7e0cb6658ffceab72bb176993",
+  "author": "Soyef Ahmed <soyef@hotmail.co.uk>",
+  "date": "2026-11-22T00:18:35Z",
+  "subject": "Add separate Helm apps for independent promotion",
+  "body": "helm-nginx and helm-redis each promote on their own branches.\n"
+}
