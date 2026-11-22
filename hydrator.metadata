@@ -1,0 +1,8 @@
+{
+  "repoURL": "https://github.com/Soyef-Ahmed/argocd-example-apps",
+  "drySha": "b13dbbe95c48e2bc605e451321645c99cf067867",
+  "author": "Soyef Ahmed <soyef@hotmail.co.uk>",
+  "date": "2026-11-22T00:23:48Z",
+  "subject": "Scale helm-nginx to two replicas.",
+  "body": "See how an open prod promotion absorbs a new dry-branch commit.\n"
+}
