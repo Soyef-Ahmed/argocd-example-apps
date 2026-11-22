@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: development-helm-nginx
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: development-helm-nginx
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: development-helm-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: development-helm-nginx
+  template:
+    metadata:
+      labels:
+        app: development-helm-nginx
+    spec:
+      containers:
+        - image: nginx:1.27
+          name: nginx
+          ports:
+            - containerPort: 80
